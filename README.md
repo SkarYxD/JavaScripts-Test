@@ -3,9 +3,9 @@ Free Basic Scripts on JavaScript :squirrel:
 
 **Next scripts**
 
-- [x] Wait 5 Seconds To Redirect
+- [x] [Wait 5 Seconds To Redirect](https://github.com/SkarYxD/JavaScripts-Test/tree/master/wait-5-seconds-to-redirect)
 - [ ] Time Based Greetings
-- [ ] Alarm Clock
+- [x] [Alarm Clock](https://github.com/SkarYxD/JavaScripts-Test/tree/master/alarm-clock)
 - [ ] Check Internet Speed
 
 
