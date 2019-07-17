@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>JK DEV # Free JavaScript</title>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">JKDEV</a>
+		</div>
+	</nav>
+	<div class="col-md-3"></div>
+	<div class="col-md-6 well">
+		<h3 class="text-primary">Simple Create, Read, Update, Delete Function</h3>
+		<hr style="border-top:1px dotted #ccc;"/>
+		<div class="col-md-4">
+			<div id="create">
+				<form action="javascript:void(0);" method="POST" class="form-group" onsubmit="Create()">
+					<label>Full Name:</label>
+					<input type="text" id="name" class="form-control"/>
+					<br />
+					<center><button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span> Create</button></center>
+				</form>
+			</div>
+			<div id="edit">	
+				<form action="javascript:void(0);" method="POST" class="form-group" id="update">
+					<label>Full Name:</label>
+					<input type="text" id="edit_name" class="form-control"/>
+					<br />
+					<center><button type="submit" class="btn btn-warning"><span class="glyphicon glyphicon-update"></span> Update</button> <button class="btn btn-danger" onclick="editHider()">&#10006; Close</button></center>
+				</form>
+			</div>
+		</div>
+	
+		<div class="col-md-8">
+			<table class="table table-bordered">
+				<thead class="alert-info">	
+					<tr>
+						<th>Name</th>
+						<th>Action</th>
+					</tr>
+				</thead>
+				<tbody id="member_list"></tbody>
+			</table>
+		</div>
+	</div>
+</body>
+<script src="js/script.js"></script>
+</html>
