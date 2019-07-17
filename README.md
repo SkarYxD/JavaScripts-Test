@@ -10,6 +10,7 @@ Free Basic Scripts on JavaScript :squirrel:
 - [x] [Random Name Generator](https://github.com/SkarYxD/JavaScripts-Test/tree/master/random-name-generator)
 - [x] [Create URL Link](https://github.com/SkarYxD/JavaScripts-Test/tree/master/create-url-link)
 - [x] [Transform Text Into Image By Dragging](https://github.com/SkarYxD/JavaScripts-Test/tree/master/transform-text-into-image-by-dragging)
+- [x] [Simple Create, Read, Update, Delete Function](https://github.com/SkarYxD/JavaScripts-Test/tree/master/simple-create-read-update-delete-function)
 
 :point_right: Contact ICQ: [@jkdev](https://icq.im/jkdev)  :point_left:
  
